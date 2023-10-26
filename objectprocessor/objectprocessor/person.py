@@ -43,7 +43,7 @@ class Person:
         self, name: str, country: str, phone_number: str, job: str, email: str
     ) -> None:
         """Define the constructor for a person."""
-        # TODO: implement all of the assignment statemnets for the constructor
+        # TODO: implement all of the assignment statements for the constructor
 
     def __repr__(self) -> str:
         """Return a textual representation of the person."""
