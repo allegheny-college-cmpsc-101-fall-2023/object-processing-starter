@@ -33,9 +33,10 @@ source code.
 The learning objectives of this assignment are to:
 
 1. Use Git and GitHub to manage source code file changes
-2. Define a class with multiple attributes and methods
-3. Demonstrate professional skills in linting and formatting
-4. Write clearly about the programming concepts in this assignment.
+2. Read in data from a CSV file
+3. Define a class with multiple attributes and methods
+4. Demonstrate professional skills in linting and formatting
+5. Write clearly about the programming concepts in this assignment.
 
 ## Seeking Assistance
 
