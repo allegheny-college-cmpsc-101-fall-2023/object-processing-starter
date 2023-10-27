@@ -5,7 +5,7 @@ rewrite all of the prompts so that they integrate into the report or delete the
 prompts altogether. Ultimately, this document should contain professional
 writing suitable for posting on your web site.
 
-## Gregory M. Kapfhammer
+## TODO: Write Your Name
 
 ## Program Output
 
@@ -25,30 +25,17 @@ TODO: Make sure that you use proper Markdown syntax to provide the command and i
 
 ## Source Code
 
-### Describe in detail how the provided source code works
+### Describe in detail how to write out a CSV file
 
-TODO: Provide a description of each line in the following source code
+TODO: Provide a fenced code block with the source code responsible for
+writing files
+TODO: Provide a description of each line of source code
 
-```python
-person_index = create_constants(
-    "person", Name=0, Country=1, Phone_Number=2, Job=3, Email=4
-)
-```
+### Describe in detail how you validated your code
 
-### Describe in detail how the provided source code works
-
-TODO: Provide a description of each line in the following source code
-
-```python
-person_attribute = create_constants(
-    "person",
-    Name="name",
-    Country="country",
-    Phone_Number="phone_number",
-    Job="job",
-    Email="email",
-)
-```
+TODO: Provide a fenced code block with a test you implemented
+TODO: Describe the purpose of the test, why you implemented it,
+and how it helped you
 
 ### Describe in detail how the provided source code works
 
