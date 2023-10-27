@@ -34,8 +34,8 @@ TODO: Provide a description of each line of source code
 ### Describe in detail how you validated your code
 
 TODO: Provide a fenced code block with a test you implemented
-TODO: Describe the purpose of the test, why you implemented it,
-and how it helped you
+TODO: Describe how the test source code works, why you implemented it,
+and whether it helped you
 
 ### Describe in detail how the provided source code works
 
