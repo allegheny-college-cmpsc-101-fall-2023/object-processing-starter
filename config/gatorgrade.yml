@@ -59,6 +59,18 @@ setup: |
         fragment: TODO
         count: 0
         exact: true
+    - description: Implement bespoke version of getattr
+      check: MatchFileFragment
+      options:
+        fragment: getattr(
+        count: 0
+        exact: true
+    - description: Use function is_matching_person inside of find_matching_people
+      check: MatchFileFragment
+      options:
+        fragment: is_matching_person(
+        count: 2
+        exact: false
     - description: Create a sufficient number of docstring (i.e., multiple-line) comments in process.py
       check: CountMultipleLineComments
       options:
