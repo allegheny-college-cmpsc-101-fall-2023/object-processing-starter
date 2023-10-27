@@ -57,6 +57,12 @@ or create an issue in your individual copy of the repository
 describing your question 24 hours before the deadline.
 Be sure to @-tag emgraber in the issue.
 
+## Links
+
+- [Named Tuples](https://docs.python.org/3/library/collections.html#collections.namedtuple)
+- [Example with person_index](https://discord.com/channels/872320492936257537/874704817270964274/1093546827485298712)
+- [Writing CSV files](https://docs.python.org/3/library/csv.html)
+
 ## Project Overview
 
 After cloning this repository to your computer, please take the following
