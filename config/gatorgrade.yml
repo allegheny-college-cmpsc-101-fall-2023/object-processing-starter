@@ -50,29 +50,6 @@ setup: |
         exact: false
 
 # perform checks on a file
-- objectprocessor/objectprocessor/person.py:
-    - description: Ensure that the person.py file exists in the objectprocessor/objectprocessor/ directory
-      check: ConfirmFileExists
-    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for person.py
-      check: MatchFileFragment
-      options:
-        fragment: TODO
-        count: 0
-        exact: true
-    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in person.py
-      check: CountMultipleLineComments
-      options:
-        language: "Python"
-        count: 5
-        exact: false
-    - description: Create a sufficient number of single-line comments in person.py
-      check: CountSingleLineComments
-      options:
-        language: "Python"
-        count: 2
-        exact: false
-
-# perform checks on a file
 - objectprocessor/objectprocessor/process.py:
     - description: Ensure that the person.py file exists in the objectprocessor/objectprocessor/ directory
       check: ConfirmFileExists
@@ -95,6 +72,29 @@ setup: |
         count: 2
         exact: false
 
+# perform checks on a file
+- objectprocessor/tests/__init__.py:
+    - description: Ensure that the __init__.py file exists in the objectprocessor/tests/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and rewrite comments for a test file
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Create a sufficient number of docstring (i.e., multiple-line) comments in person.py
+      check: CountMultipleLineComments
+      options:
+        language: "Python"
+        count: 2
+        exact: false
+    - description: Create a sufficient number of single-line comments in person.py
+      check: CountSingleLineComments
+      options:
+        language: "Python"
+        count: 2
+        exact: false
+        
 # perform checks on a file
 - writing/reflection.md:
     - description: Ensure that the reflection.md file exists in the writing/ directory
@@ -158,8 +158,8 @@ setup: |
   command: cd objectprocessor && poetry run task markdownlint
 
 # run a command
-# - description: Pass all of the Pytest test cases
-#   command: cd objectprocessor && poetry run task test
+- description: Pass all of the Pytest test cases
+  command: cd objectprocessor && poetry run task test
 
 # count number of commits in the GitHub repository
 - description: Have at least a specific minimum of commits in repository
